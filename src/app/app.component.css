@@ -1,0 +1,171 @@
+html {
+    background-color: aliceblue;
+    min-height: 97vh;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.bannner {
+    height: 130px;
+    background-image: linear-gradient(to right, #FF738E, #FFA16F);
+    color: white;
+    border-bottom-left-radius: 35px;
+}
+
+.mini-banner {
+    padding: 20px;
+    display: flex;
+}
+
+.white-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.school-name {
+    padding: 15px 8px;
+}
+
+.user-info {
+    width: 70vw;
+    border-radius: 20px;
+    background: white;
+    margin-left: 20px;
+    margin-top: -35px;
+}
+
+.user-info-details {
+    padding: 10px;
+    display: flex;
+}
+
+.user-info-text {
+    padding: 4px 10px;
+}
+
+.offer-card {
+    background-image: linear-gradient(to bottom, violet, purple);
+    width: 90vw;
+    border-radius: 5%;
+    margin: 15px;
+    padding: 20px;
+    color: white;
+}
+
+#user-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+#text1 {
+    font-size: 25px;
+    width: 75%;
+    display: inline-block;
+}
+
+#icon-tick {
+    height: 35px;
+    float: right;
+}
+
+#text2 {
+    font-size: 80px;
+    width: 35%;
+    display: inline-block;
+}
+
+#text3 {
+    font-size: 15px;
+    width: 40%;
+    display: inline-block;
+    position: absolute;
+    margin: 25px;
+}
+
+#text4 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 55%;
+    display: inline-block;
+}
+
+button {
+    border-radius: 50px;
+    height: 35px;
+    width: 125px;
+    border: none;
+    font-weight: bold;
+    color: darkslategray;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 95%;
+    height: 62vh;
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 15px;
+    background: #444859;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-weight: 900;
+}
+
+#text5 {
+    display: inline;
+    font-weight: bold;
+}
+
+label {
+    color: dimgray;
+}
+
+form {
+    margin-top: 15px;
+}
+
+#cancel {
+    float: left;
+    width: 40vw;
+    background: #444859;
+    color: white;
+}
+
+#activate {
+    float: right;
+    width: 40vw;
+    background: #5DDCC3;
+    color: white;
+}
+
+.correct-tick {
+    height: 20px;
+    width: 20px;
+    float: right;
+}
