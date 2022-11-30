@@ -47,19 +47,19 @@
 
       <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
         <label>Phone Number</label><span *ngIf="profileForm.controls['phoneNumber'].valid"><img class="correct-tick"
-            src="https://cdn-icons-png.flaticon.com/512/4315/4315445.png"></span>
+            src="../assets/4315445.png"></span>
         <input class="w3-input" type="tel" maxlength="13" formControlName="phoneNumber">
         <br>
         <label>PAN Card Number</label><span *ngIf="profileForm.controls['panNumber'].valid"><img class="correct-tick"
-            src="https://cdn-icons-png.flaticon.com/512/4315/4315445.png"></span>
+            src="../assets/4315445.png"></span>
         <input class="w3-input" type="text" maxlength="10" formControlName="panNumber">
         <br>
         <label>Name as in PAN Card</label><span *ngIf="profileForm.controls['name'].valid"><img
-            class="correct-tick" src="https://cdn-icons-png.flaticon.com/512/4315/4315445.png"></span>
+            class="correct-tick" src="../assets/4315445.png"></span>
         <input class="w3-input" type="text" formControlName="name">
         <br>
         <label>Email</label><span *ngIf="profileForm.controls['email'].valid"><img class="correct-tick"
-            src="https://cdn-icons-png.flaticon.com/512/4315/4315445.png"></span>
+            src="../assets/4315445.png"></span>
         <input class="w3-input" type="email" formControlName="email">
         <br>
         <button id="cancel" (click)="toggleForm()">Cancel</button>
